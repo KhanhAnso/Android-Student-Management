@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivitySubjectInformation">
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#F00"
+        android:textStyle="bold"
+        android:text="Student information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="Student name : "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+        <TextView
+            android:textColor="#000000"
+            android:text="Nguyen Van A"
+            android:textSize="20dp"
+            android:id="@+id/txtStudentName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="Sex : "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+        <TextView
+            android:textColor="#000000"
+            android:text="Male"
+            android:textSize="20dp"
+            android:id="@+id/txtStudentSex"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="Student code : "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+        <TextView
+            android:textColor="#000000"
+            android:text="A3123323"
+            android:textSize="20dp"
+            android:id="@+id/txtStudentCode"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="Date of birth : "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+        <TextView
+            android:textColor="#000000"
+            android:text="1/1/2022"
+            android:textSize="20dp"
+            android:id="@+id/txtStudentdateofbirht"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+</LinearLayout>

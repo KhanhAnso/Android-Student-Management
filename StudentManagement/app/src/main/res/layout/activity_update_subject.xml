@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityAddSubject">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Update Subject"
+        android:textColor="#F44336"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/EditTextUpdateSubjectTitle"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Subject title"></EditText>
+
+    <EditText
+        android:id="@+id/EditTextUpdateSubjectCredit"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Credit"></EditText>
+
+    <EditText
+        android:id="@+id/EditTextUpdateSubjectTime"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Time"></EditText>
+
+    <EditText
+        android:id="@+id/EditTextUpdateSubjectPlace"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Place"></EditText>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/buttonUpdateSubject"
+        android:text="Update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+</LinearLayout>
